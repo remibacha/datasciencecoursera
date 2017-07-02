@@ -59,3 +59,4 @@ names(DFmerge_extract) <- new_var_names
 
 #5.From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 tidy_dataset <- aggregate(DFmerge_extract[,3:81], by = list(activity = DFmerge_extract$activity, subject = DFmerge_extract$subject),FUN = mean)
+write.table(x = tidy_dataset, file = "tidy_dataset.txt", row.names = FALSE)
