@@ -13,7 +13,7 @@
  *    STANDING (value 5)
  *    LAYING (value 6)
     
-## Columns 
+## Columns names (features and measurements)
 
 *  [1] "subject"                                                    
 *  [2] "activity"                                                   
@@ -95,4 +95,16 @@
 * [78] "FrequencyDomain_BodyBodyGyroscopeMagnitude-entropy"         
 * [79] "FrequencyDomain_BodyBodyGyroscopeMagnitude-skewness"        
 * [80] "FrequencyDomain_BodyBodyGyroscopeMagnitude-kurtosis"        
-* [81] "FrequencyDomain_BodyBodyGyroscopeJerkMagnitude-entropy"  
+* [81] "FrequencyDomain_BodyBodyGyroscopeJerkMagnitude-entropy" 
+
+
+## Description of measurements
+
+*    Body = related to body movement.
+*    Gravity = acceleration of gravity
+*    Accelerometer = accelerometer measurement
+*    Gyroscope = gyroscopic measurements
+*    Jerk = sudden movement acceleration
+*    Magnitude = magnitude of movement
+*    mean and SD are calculated for each subject for each activity for each mean and SD measurements.
+
