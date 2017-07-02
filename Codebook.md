@@ -1,10 +1,10 @@
-Welcome to the Code Book
+# Welcome to the Code Book
 
-Fields
-    subject - The person 's ID
-    activity - The label of the activity performed when the corresponding measurements were taken
+## Fields
+⋅⋅* subject - The person 's ID
+⋅⋅* activity - The label of the activity performed when the corresponding measurements were taken
     
-Activity Labels
+## Activity Labels
 
     WALKING (value 1)
     WALKING_UPSTAIRS (value 2)
@@ -13,7 +13,7 @@ Activity Labels
     STANDING (value 5)
     LAYING (value 6)
     
-Columns 
+## Columns 
 
  [1] "subject"                                                    
  [2] "activity"                                                   
